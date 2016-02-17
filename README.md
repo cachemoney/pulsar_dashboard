@@ -6,7 +6,7 @@ This application demonstrates several shippable features that effect every level
  - Bootstrap for UX
  - Bower-gem to manage JS dependencies for Bootstrap and Angular
  
- ### Postgres
+### Postgres
  - uses [constraints](db/migrate/20160210192833_add_email_constraint_to_users.rb) to further validate signup form.
  - implements fast queries with [Postgres indexes](db/migrate/20160211002253_add_lower_indexes_to_customers.rb)
  - uses [materialized views](db/migrate/20160215232348_create_customer_details_materialized_view.rb) to cache slow queries(address fields)
