@@ -1,6 +1,8 @@
 ## Pulsar Dashboard
 This application demonstrates several shippable features that effect every level of the development stack.  I been able to dig into some advanced features of Postgres, building dynamic Angular components as well as testing javascript using Jasmine and phantomJS, rspec unit tests, capybara acceptance tests.
 
+login: robin@test.com/password1234
+
 ### Rails
  - Uses Devise for Authentication
  - Bootstrap for UX
