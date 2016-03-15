@@ -15,6 +15,7 @@ gem 'bower-rails'
 gem	'faker'
 gem	'angular-rails-templates'
 gem "sprockets", "~> 2.0"
+gem 'rails_12factor', group: :production
 
 # gem 'rails_12factor', group: :production
 
